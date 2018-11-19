@@ -2,8 +2,4 @@
   "version": 2,
   "name": "gil website",
   "alias": ["gilfelot.com"]
-  // "builds": [
-  //   { "src": "*", "use": "@now/static" },
-  //   { "src": "*.html", "use": "@now/html-minifier" }
-  // ]
 }
