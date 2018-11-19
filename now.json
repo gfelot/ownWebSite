@@ -1,5 +1,13 @@
 {
   "version": 2,
   "name": "gil website",
-  "alias": ["gilfelot.com"]
+  "alias": ["gilfelot.com"],
+  "builds": [{ "src": "index.html", "use": "@now/static" }],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://gilfelot.com/$1" }
+    }
+  ]
 }
