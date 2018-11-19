@@ -4,6 +4,6 @@
   "alias": ["gilfelot.com"],
   "builds": [
     { "src": "*.html", "use": "@now/html-minifier" },
-    { "src": "index.html", "use": "@now/static" }
+    { "src": "*", "use": "@now/static" }
   ]
 }
